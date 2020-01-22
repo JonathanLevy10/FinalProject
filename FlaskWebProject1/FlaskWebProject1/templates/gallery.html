@@ -1,0 +1,51 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<h3>{{ message }}</h3>
+
+<p>Use this area to provide additional information.</p>
+
+
+<div class="container">
+    <h2>Bordered Table</h2>
+    <p>The .table-bordered class adds borders on all sides of the table and the cells:</p>
+    <table class="table table-bordered">
+
+
+
+        <tbody>
+            <tr>
+                <td><img src='/static/images/pirlo.jpg' alt=‘Missing Image’>/td>
+                <td>Doe</td>
+                <td>john@example.com</td>
+            </tr>
+        
+            <tr>
+                
+                <td><img src='/static/images/960x0.jpg' alt=‘Missing Image’>/td>
+                <td>Moe</td>
+                <td>mary@example.com</td>
+            </tr>
+        <tr>
+            <td><img src='/static/images/45975434_303.jpg' alt=‘Missing Image’>/td>
+            <td>Dooley</td>
+            <td>july@example.com</td>
+        </tr>
+        <tr>
+            <td><img src='/static/images/mbappe-league-one.jpg' alt=‘Missing Image’>/td> 
+</tr>
+        <tr>
+            <td><img src='/static/images/37.67.jpg' alt=‘Missing Image’>/td> 
+</tr>
+        <tr>
+            <td><img src='/static/images/157614560400017.jpg' alt=‘Missing Image’>/td>
+</tr>
+
+        </tbody>
+    </table>
+</div>
+
+
+{% endblock %}
